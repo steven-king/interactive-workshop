@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+
+    <title>Starter Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/app.css" rel="stylesheet">
+    <link href="css/quiz-style.css" rel="stylesheet">
+      
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#top">Home</a></li>
+            <li><a href="#chart">Chart</a></li>
+            <li><a href="#map">Map</a></li>
+            <li><a href="#quiz">Quiz</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="container main-content">
+                  <a name="top"></a> 
+              
+                <h1>EuroZone Crisis</h1>
+                <h4>When the economic crisis erupted in 2008, many Europeans assumed they were facing a couple of bad years. But the crisis, now in its fifth year, seems to go on and on, using up unemployment benefits, eating through savings accounts and dashing dreams of an easy retirement</h4>
+                <h5>By: Susanee Daley | <em>The New York Times</em></h5>
+
+        <!-- Traditional sidebar example -->
+         <div class="row">
+            <div class="col-md-9">
+                <div class="photo">
+                <img class="article-image" src="http://graphics8.nytimes.com/packages/images/multimedia/bundles/projects/2012/EurocrisisStory/lead_photo.png" width="100%">
+                <p class="credit">Photo by Samuel Aranda for The New York Times</p>
+                <p class="caption">Eurpean laborers gather during a local town hall meeting.</p>
+                </div>
+                <p>When the economic crisis erupted in 2008, many Europeans assumed they were facing a couple of bad years. But the crisis, now in its fifth year, seems to go on and on, using up unemployment benefits, eating through savings accounts and dashing dreams of an easy retirement.</p>
+<p>Over the past year, the countries hit hardest by the crisis - Greece, Spain, Portugal and Ireland - have struggled to bring down their debts. They have raised taxes, laid off workers, reduced services and have begun charging for medical care that had been free for decades. Each country had its own formula. But they were joined in the misery of trying to make do on less - and then even less.</p>
+<p>No amount of cutting seemed to be enough. Businesses continued to fail at a rapid pace. Even many of those Europeans who thought they were safe lost their jobs. Those who had work saw their salaries reduced. Parents watched their children fly off to other countries looking for employment - or welcomed them back into their childhood rooms because they were losing their homes to foreclosure.</p>
+                <p>Read Complete Story <a href="http://www.nytimes.com/interactive/2012/12/30/world/europe/eurocrisis-photos.html?ref=multimedia">at NYTimes.com</a></p>
+                
+                 <h3>Debt vs. GDP</h3>
+                 <a name="chart"></a> 
+            <div id="chart1" style="width:100%; height:400px;"></div>
+                
+                
+                
+                <h3>Map</h3>
+                 <a name="map"></a> 
+        <iframe width="100%" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?ie=UTF8&amp;oe=UTF8&amp;msa=0&amp;msid=205876773503712571903.000498b4258a3d257f6e3&amp;t=h&amp;ll=48.632909,29.707031&amp;spn=26.194425,105.380859&amp;z=4&amp;output=embed"></iframe><br /><small>View <a href="https://maps.google.com/maps/ms?ie=UTF8&amp;oe=UTF8&amp;msa=0&amp;msid=205876773503712571903.000498b4258a3d257f6e3&amp;t=h&amp;ll=48.632909,29.707031&amp;spn=26.194425,105.380859&amp;z=4&amp;source=embed" style="color:#0000FF;text-align:left">Eurozone nations</a> in a larger map</small>
+          
+                
+                
+            </div><!-- /col-md-9 -->
+            
+            <div class="col-md-3"> 
+            <div class="by_the_num gray-box">
+              <p class="hint">Countries in Eurozone at risk of default:</p>
+              <span class="large_num">5</span> of <span class="small_num">17</span>
+            </div>
+            <div class="gray-box by_the_num spacer">
+              <p class="hint">Eurozone Inflation Rate:</p>
+              <span class="arrow">&#8595;</span><span class="large_num">1.2</span><span class="small_num">%</span>
+            </div>
+            
+            <div class="gray-box by_the_num spacer">
+              <p class="hint">Unemployment in Eurozone:</p>
+              <span class="large_num">12.1</span><span class="small_num">%</span>
+            </div>
+           
+            <h3>Test your knowledge:</h3>
+            <a name="quiz"></a> 
+        <div id="quiz_container"></div>
+        
+            
+            
+            </div><!-- /col-md-3 -->
+       
+        
+        </div>
+        
+    </div> <!-- /container -->
+
+     <div class="row">
+          <div class="footer">
+            <p class="credits">Photos and Article text Copyright The New York Times. <a href="http://www.nytimes.com/interactive/2012/12/30/world/europe/eurocrisis-photos.html?ref=multimedia">Origional Story Found Here</a> | Design and development from II Interactive Designer Workshop.</p>
+          </div>
+        </div>
+       
+
+
+<!-- place JS prior to closing of page -->       
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="http://code.highcharts.com/highcharts.js"></script>
+<script src="js/tabletop.js"></script> 
+<script src="js/newsquiz.min.js"></script>
+
+ 
+        <script>
+          
+          $(document).ready(function() {
+            loadChart();
+     });
+          
+  function loadChart() { 
+        $('#chart1').highcharts({
+        chart: {
+            type: 'column'
+        },
+        title: {
+            text: 'Eurozon Countries Debt precentage'
+        },
+        xAxis: {
+            categories: ['Spain', 'Portugal', 'Greece', 'Ireland', 'Latvia']
+        },
+        yAxis: {
+            title: {
+                text: '% of GDP '
+            }
+        },
+        series: [{
+            name: 'Countries',
+            data: [69, 108, 170, 106, 42]
+        }]
+    });
+        loadQuiz();
+  };
+
+  function loadQuiz() {
+          var quiz = jQuery('#quiz_container').quiz('0ApISHmWoJse8dHU5NzRrM1JMZDBBZ1dVX010QmswdkE'); //your published spreadsheet key or URL goes here
+      };
+          
+          
+          
+        </script>
+        
+        
+  </body>
+</html>

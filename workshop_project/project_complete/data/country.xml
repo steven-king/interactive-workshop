@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<countries>
+    <country name="Spain">
+        <gdp>1480</gdp>
+        <debt>69.3</debt>
+        <text><![CDATA[<p>Spain abandoned housing projects, where rotted, waist-high weeds sprouted from cracks in the sidewalks. Soup kitchens strained to feed all who arrived. A growing number of people have turned to scavenging outside supermarkets and wholesale food distribution centers looking for edible throwaways. One Spanish town, Girona, found the practice such a health risk that it issued an ordinance to lock the city’s garbage bins.</p>
+<p>Spain continued to wrestle with the collapse of its housing boom. Its banks tried yet again to get a handle on their true loses, and the government worked to negotiate a bailout for them. But even that brought bad news. The European Commission approved a payment of $49 billion to four Spanish banks, but only on the condition that they lay off thousands of employees and close offices as part of their restructuring, a move that only contributed to a growing unemployment rate.</p>
+<p>Spain’s regional and municipal governments continued to struggle with their own debts, making relationships with the central government tense. One of Spain’s richest provinces, Catalonia, began threatening a referendum on independence, which many see as a way of pressuring Madrid to give the region back more of the money it earns.</p>]]></text>
+    </country>
+    <country name="Portugal">
+        <gdp>238</gdp>
+        <debt>108.1</debt>
+        <text><![CDATA[<p>For a time, Portugal was seen as a role model in the grinding crisis. In return for an international bailout, its government cut services and raised taxes while its citizens patiently endured the hardships.</p>
+<p>But that ended in 2012, when the government appeared to make one demand too many. After Prime Minister Passos Coelho offered a plan to shift the burden of social security payments from employers to workers, tens of thousands took to the streets.</p>
+<p>Although the measure was meant to lower labor costs, the protest from workers was so ferocious that Mr. Coelho was soon forced to withdraw it.</p>
+<p>In Spain, it was the pain of hundreds of thousands of mortgage holders that often made headlines. Some committed suicide as the police arrived to move them out.</p>]]></text>
+    </country>
+    
+    <country name="Greece">
+        <gdp>289</gdp>
+        <debt>170.6</debt>
+        <text><![CDATA[<p>In Greece, it was another year of often violent demonstrations as a new government was elected and a fragile coalition worked to satisfy the requirements of the nation’s creditors, who pressed relentlessly for more cuts. Greece once had an extensive public health care system that ensured near-universal coverage. But reducing costs yet again, public hospitals instituted new fees and co-payments that many poor and unemployed residents could not afford. At the same time, several drug companies, tired of not getting paid, stopped supplying some of their drugs to the country’s hospitals. Many cancer patients could not afford the expensive drugs they needed.</p>
+<p>Meanwhile, with Greece’s unemployment rate hitting 25 percent, and exceeding 50 percent for young people, social tensions were on the rise — between generations, public and private-sector workers, and the haves and have-nots. Illegal immigrants, blamed for taking jobs, became the target of attacks, particularly by members of an extreme right-wing group, Golden Dawn. Those attacks only fed the popularity of the party, which was seated in Parliament for the first time.</p>]]></text>
+    </country>
+    
+    <country name="Ireland">
+        <gdp>217</gdp>
+        <debt>106.4</debt>
+        <text><![CDATA[<p>Ireland continued to struggle, too. The proportion of households without a working adult was the among highest in the European Union, and yet the government, under pressure from its creditors, undertook a series of cuts that reduced aid to the poorest, including child support payments. At the same time it increased property taxes.</p>
+<p>Hunger became an issue in several countries. In Greece, the government passed a law allowing supermarkets to sell expired food at discounted prices, while in Portugal and Spain soup kitchens strained to feed all who arrived.</p>
+<p>Cutbacks were felt in the schools, too. Some classrooms bulged with 50 or 60 students. Others suffered from a lack of heat and supplies. In Greece, one school district advertised for anyone willing to make donations for textbooks or a copying machine. Protests grew almost everywhere, with many people saying they could take no more.</p>]]></text>
+    </country>
+
+    <country name="Latvia">
+        <gdp>282</gdp>
+        <debt>42.2</debt>
+        <text><![CDATA[<p>One country that offered a somewhat rosier picture was Latvia, which four years ago was as desolate as the others. Now, however, some experts are hailing its progress as proof of the healing properties of austerity measures.</p>
+<p>At one point, Latvia which suffered many of the problems seen in other troubled nations — a growing hole in government finances, a banking crisis and falling competitiveness — laid off a third of its civil servants and slashed salaries and services. Its economy shriveled by more than 20 percent.</p>
+<p>But in 2012 its economy rebounded to grow by about 5 percent, making it the best performer in the 27-nation European Union. That figure, however, was hardly enough to improve the lot of the average Latvian. Some 30 percent of the population is “severely materially deprived,” according to 2011 European Union statistics.</p>]]></text>
+    </country>
+
+    
+    
+</countries>

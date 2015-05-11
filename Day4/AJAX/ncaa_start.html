@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+    <title>Load XML With jQuery</title>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <link href="StyleSheet.css" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript">
+        
+        $(document).ready(function(){
+            //set the url of your file...
+           $.ajax({
+                type: "GET",
+                url: "",
+                dataType: "xml",
+                success: function(xml){
+                  
+                  //This setups up the html at the top of the page
+                    $('body').append('<h1>UNC Football Scandal Roster</h1>');
+                    $('body').append('<dl />');
+                
+                //parse the xml into variabls
+
+           $(xml).find('person').each(function(){
+                //console.log("once for every person");
+                var $person = $(this); 
+                var name = $person.attr("name");
+                var location = $person.find('location').text();
+                //needs more vars...
+                
+                var html = '<dt> <img class="bioImage" alt="" src="' + photo + '" /> </dt>';
+                //needs more html...
+                $('dl').append($(html));
+                $('.loadingPic').fadeOut(1400);
+            });
+            }
+            });
+           
+        });
+    
+    </script>
+
+</head>
+<body>
+</body>
+</html>
