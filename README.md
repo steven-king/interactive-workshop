@@ -12,3 +12,9 @@ https://www.google.com/maps/d/viewer?oe=UTF8&t=p&ie=UTF8&msa=0&mid=zaf_qGkcK4y4.
 More CSS Stuff: https://github.com/steven-king/j586/tree/master/_classes/01_css/css_bootcamp
 
 Net Neturality Explained: http://www.nytimes.com/video/technology/100000002881329/how-net-neutrality-works.html
+
+
+Python Sever Script:
+cd to your folder then run
+python -m SimpleHTTPServer
+
