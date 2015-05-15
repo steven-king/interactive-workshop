@@ -16,5 +16,8 @@ Net Neturality Explained: http://www.nytimes.com/video/technology/10000000288132
 
 Python Sever Script:
 cd to your folder then run
+
+
+
 python -m SimpleHTTPServer
 
